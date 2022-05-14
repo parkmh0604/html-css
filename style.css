@@ -1,5 +1,157 @@
-body, html {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+body,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+div.container {
+  height: 100vh;
+  display: flex;
+}
+div .border {
+  border: 1px solid black;
+}
+
+div .menu {
+  width: 10vw;
+}
+div .main {
+  width: 90vw;
+}
+div .menu-header {
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+}
+
+div .menu img {
+  width: 70%;
+  height: 100%;
+}
+div .menu-item {
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+div .empty-box {
+  width: 20px;
+  height: 20px;
+  margin: 15px;
+}
+
+div .divider {
+  border-top: 2px solid #ccc;
+  margin: 10px 0;
+}
+
+div .login-alert {
+  padding: 0 15px;
+}
+div .login-box {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10px 0;
+  border: 1px solid rgb(127, 127, 240);
+}
+h4.menu-title {
+  margin-left: 15px;
+  color: grey;
+}
+
+div .main-header {
+  height: 50px;
+}
+
+div .input-cont {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div .small-icon {
+  width: 15px;
+  height: 15px;
+}
+
+.input-cont input,
+.input-cont button,
+.input-cont .record {
+  height: 30px;
+  padding: 0;
+}
+
+.input-cont input {
+  width: 250px;
+}
+
+div .record {
+  width: 22px;
+  height: 22px;
+  background-color: #ccc;
+}
+
+div .main-tags {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div .tag {
+  margin: 0 7px;
+  background-color: #ddd;
+  padding: 7px 12px;
+  border-radius: 20px;
+}
+
+div .selected {
+  background-color: black;
+  color: white;
+}
+
+div .divider2 {
+  border-top: 2px solid #ccc;
+}
+
+div .main-contents {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px 0;
+  flex-wrap: wrap;
+}
+
+div .content {
+  width: 21%;
+  margin: 20px 10px;
+}
+
+.thumbnail {
+  width: 100%;
+}
+
+.profile {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+.detail {
+  width: 70%;
+}
+.detail h3 {
+  margin: 0;
+  font-size: 17px;
+}
+
+.description {
+  display: flex;
+  justify-content: space-around;
 }
